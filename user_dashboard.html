@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+  </head>
+  <body>
+    <h1>User Dashboard</h1>
+    <p id="username"></p>
+    <p id="email"></p>
+    <script>
+      let username = (document.getElementById("username").textContent =
+        localStorage.getItem("username"));
+      let email = (document.getElementById("email").textContent =
+        localStorage.getItem("email"));
+    </script>
+  </body>
+</html>
