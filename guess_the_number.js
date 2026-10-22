@@ -1,4 +1,4 @@
-// Guess The number game
+// Guess The Number game
 const readline = require('readline');
 
 const terminal = readline.createInterface({
