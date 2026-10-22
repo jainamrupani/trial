@@ -1,4 +1,4 @@
-// Rock Paper Scissors Game
+// ROCK PAPER SCISSORS GAME
 const readline = require('readline');
 
 const terminal = readline.createInterface({
